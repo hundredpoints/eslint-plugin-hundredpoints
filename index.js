@@ -24,10 +24,6 @@ module.exports = {
     },
     recommended: {
       parser: "@typescript-eslint/parser",
-      parserOptions: {
-        project: "./tsconfig.json", // Used by typescript
-        tsconfigRootDir: __dirname, // Used by typescript
-      },
       ignorePatterns: ["coverage/", ".eslintrc.js", "babel.config.js"],
       settings: {
         "import/resolver": {

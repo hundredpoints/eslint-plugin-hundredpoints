@@ -24,7 +24,7 @@ module.exports = {
     },
     recommended: {
       parser: "@typescript-eslint/parser",
-      ignorePatterns: ["coverage/", ".eslintrc.js", "babel.config.js"],
+      ignorePatterns: ["coverage/", ".eslintrc.js", "babel.config.js", "dist/"],
       settings: {
         "import/resolver": {
           typescript: {}, // this loads <baseDir>/tsconfig.json to eslint

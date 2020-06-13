@@ -1,13 +1,17 @@
 {
   "name": "@hundredpoints/eslint-plugin-hundredpoints",
   "version": "0.0.5",
-  "description": "",
+  "description": "Common eslint configurations for @hundredpoints",
   "main": "index.js",
+  "author": "hundredpoints",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hundredpoints/eslint-plugin-hundredpoints.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "eslint-import-resolver-typescript": "^2.0.0"
   },

@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint-import-resolver-typescript": "^2.0.0"
+    "eslint-import-resolver-typescript": "^2.2.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
